@@ -15,3 +15,11 @@ butInstall.addEventListener('click', async () => {
 window.addEventListener('appinstalled', (event) => {
   window.deferredPrompt = null;
 });
+
+window.addEventListener('beforeinstallprompt', (event) => {};
+
+butInstall.addEventListener('click', async () => {});
+
+window.addEventListener('appInstalled', (event) => {});
+
+)
